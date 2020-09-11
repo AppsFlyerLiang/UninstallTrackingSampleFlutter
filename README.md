@@ -9,7 +9,7 @@ A flutter sample app for AppsFlyer Uninstall Measurement implementation.
 #### 1. Add Firebase Messaging plugin.
 - ###### 1-1. Refer to https://pub.dev/packages/firebase_messaging
   - Only Android part is required for this guide
-- ###### 1-2. If you see an error in `registerWith(PluginRegistry registry)` from , change it as below.
+- ###### 1-2. If you see an error in `registerWith(PluginRegistry registry)` from `Application.java`, fix it as below.
 ```java
     @Override
     public void registerWith(PluginRegistry registry) {
