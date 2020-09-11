@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "160015712769",
+    "firebase_url": "https://flutteruninstallsample.firebaseio.com",
+    "project_id": "flutteruninstallsample",
+    "storage_bucket": "flutteruninstallsample.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160015712769:android:c038376cbe4701bd283600",
+        "android_client_info": {
+          "package_name": "com.fascode.flutter_uninstall_sample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160015712769-jp660a66hjquapdla9420n6l4is49v06.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuJo3XGHJZIGAUIg81_5HYnqFxn9qd5hI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160015712769-jp660a66hjquapdla9420n6l4is49v06.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
