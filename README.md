@@ -75,10 +75,15 @@ void main() {
           static AppsflyerSdk appsflyerSdk;
           static Future initAppsFlyerSdk() async {
             appsflyerSdk = AppsflyerSdk({
-            "afDevKey": "<YOUR DEV KEY>",
-            "afAppId": "<iOS APP ID>",
-            "isDebug": true, // Set it to false for release build
-          });
+              "afDevKey": "<YOUR DEV KEY>",
+              "afAppId": "<iOS APP ID>",
+              "isDebug": true, // Set it to false for release build
+            });
+            await appsflyerSdk.initSdk(
+              registerConversionDataCallback: true,
+              registerOnAppOpenAttributionCallback: true
+            );
+          }
         }
         ```
     - Call Init function
